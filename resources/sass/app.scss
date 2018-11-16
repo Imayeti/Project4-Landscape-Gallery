@@ -1,6 +1,6 @@
 
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 // Variables
 @import 'variables';
@@ -11,4 +11,23 @@
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+body {
+  color: white;
+  background-color: #0091ac;
+  font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  color: white;
+}
+
+.card {
+  color: black !important;
+  background-color: #F5F5F5;
+}
+
+hr {
+background-color: white;
 }

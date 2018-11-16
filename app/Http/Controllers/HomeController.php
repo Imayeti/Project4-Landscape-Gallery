@@ -21,12 +21,8 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-
-        $landscapes = new \App\landscape;
-        $landscapes = $landscapes->all();
-
-        return view('home', compact('landscapes'));
+    public function index(){
+        return view('home');
     }
+
 }
