@@ -22,7 +22,7 @@
                     <img class="card-img-top" src="{{$landscape->url}}" alt="Card image cap">
                     <div class="card-body">
 
-                      <h4 class="card-title">{{ $landscape->exhibit_name }}<span class="ml-5"></span>{{ $landscape->year}}</h4>
+                      <h4 class="card-title">{{ $landscape->exhibit_name }}<span class="ml-4"></span>{{ $landscape->year}}</h4>
                       <p class="card-text">{{ $landscape->artist}}</p>
                       <p class="card-text">{{ $landscape->description }}</p>
                       <form class="" action="/new_exhibit/{{$landscape->id}}" method="post">

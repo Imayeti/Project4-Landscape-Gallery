@@ -1,10 +1,14 @@
 
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
 
 // Variables
 @import 'variables';
 
+$theme-colors: (
+  "primary": #0D386E,
+
+);
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
@@ -16,7 +20,7 @@
 body {
   color: white;
   background-color: #0091ac;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cinzel', serif;
 }
 
 h1 {

@@ -20,11 +20,11 @@ class LandscapesTableSeeder extends Seeder
         $exhibit1->save();
 
         $exhibit2 = new \App\landscape;
-        $exhibit2->exhibit_name = 'mountains';
+        $exhibit2->exhibit_name = 'Mountains';
         $exhibit2->year = '2016';
         $exhibit2->artist = 'Rachel Johnson';
         $exhibit2->url = "https://cdn.cnn.com/cnnnext/dam/assets/170407220916-04-iconic-mountains-matterhorn-restricted.jpg";
-        $exhibit2->description = 'lots of trees';
+        $exhibit2->description = 'Sun kissed mountains by a pristine lake';
         $exhibit2->save();
 
         $exhibit3 = new \App\landscape;

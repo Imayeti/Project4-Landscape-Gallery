@@ -16,10 +16,10 @@ class CreateLandscapesTable extends Migration
         Schema::create('landscapes', function (Blueprint $table) {
             $table->increments('id');
             $table->string('exhibit_name');
-            $table->string('year');
+            $table->string('year')->nullable();
             $table->string('artist');
             $table->string('url');
-            $table->string('description');
+            $table->string('description')->nullable();
             $table->timestamps();
         });
     }
