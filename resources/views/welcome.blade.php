@@ -25,6 +25,7 @@
                       <h4 class="card-title">{{ $landscape->exhibit_name }}<span class="ml-4"></span>{{ $landscape->year}}</h4>
                       <p class="card-text">{{ $landscape->artist}}</p>
                       <p class="card-text">{{ $landscape->description }}</p>
+                      <p class="card-text"><span class="mr-2">Posted: </span>{{  $landscape->updated_at }}</p>
                       <form class="" action="/new_exhibit/{{$landscape->id}}" method="post">
                         @csrf
                         @method('DELETE')

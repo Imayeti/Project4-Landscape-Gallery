@@ -30,6 +30,7 @@ class Exhibit_Controller extends Controller
       $exhibit->artist = $request->exhibit_artist;
       $exhibit->url = $request->exhibit_url;
       $exhibit->description = $request->exhibit_description;
+      $exhibit->updated_at = now();
       $exhibit->save();
 
       return redirect('/');
@@ -89,6 +90,7 @@ class Exhibit_Controller extends Controller
       $exhibit->artist = $request->exhibit_artist;
       $exhibit->url = $request->exhibit_url;
       $exhibit->description = $request->exhibit_description;
+      $exhibit->updated_at = now();
       $exhibit->save();
 
       session()->flash('status', 'Exhibit Updated!');
